@@ -1,0 +1,41 @@
+{
+    "image1": {
+        "img": "images/team1.png"
+    },
+    "image2": {
+        "img": "images/team2.png"
+    },
+    "image3": {
+        "img": "images/team6.png"
+    },
+    "image4": {
+        "img": "images/team1.png"
+    },
+    "image5": {
+        "img": "images/team6.png"
+    },
+    "image6": {
+        "img": "images/team2.png"
+    },
+    "image7": {
+        "img": "images/team1.png"
+    },
+    "image7": {
+        "img": "images/team1.png"
+    },
+    "image8": {
+        "img": "images/team5.png"
+    },
+    "image9": {
+        "img": "images/team6.png"
+    },
+    "image10": {
+        "img": "images/team1.png"
+    },
+    "image11": {
+        "img": "images/team2.png"
+    },
+    "image12": {
+        "img": "images/team4.png"
+    }
+}

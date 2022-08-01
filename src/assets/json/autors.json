@@ -1,0 +1,131 @@
+{
+    "autor1": {
+        "id": 1,
+        "name": "Имя Фамилия" ,
+        "status": "Студент курса «WEB-разработчик»",
+        "img": "images/autorPic/autor1.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius.",
+        "rate": "4.87/5"
+    },
+    "autor2": {
+        "id": 2,
+        "name": "Имя Фамилия" ,
+        "status": "Студент курса «WEB-разработчик»",
+        "img": "images/autorPic/autor2.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. In hac habitasse platea dictumst. In ut dui sodales, scelerisque eros non, ultrices magna. ",
+        "rate": "4.87/5"
+    },
+    "autor3": {
+        "id": 3,
+        "name": "Имя Фамилия" ,
+        "status": "Студент курса «WEB-разработчик»",
+        "img": "images/autorPic/autor3.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. In hac habitasse platea dictumst. In ut dui sodales, scelerisque eros non, ultrices magna. ",
+        "rate": "4.87/5"
+    },
+    "autor4": {
+        "id": 4,
+        "name": "Имя Фамилия" ,
+        "status": "Студент курса «WEB-разработчик»",
+        "img": "images/autorPic/autor4.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. In hac habitasse platea dictumst. In ut dui sodales. ",
+        "rate": "4.87/5"
+    },
+    "autor5": {
+        "id": 5,
+        "name": "Имя Фамилия" ,
+        "status": "Студент курса «WEB-разработчик»",
+        "img": "images/autorPic/autor5.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. In hac habitasse platea dictumst. In ut dui sodales, scelerisque eros non, ultrices magna. ",
+        "rate": "4.87/5"
+    },
+    "autor6": {
+        "id": 6,
+        "name": "Имя Фамилия" ,
+        "status": "Студент курса «WEB-разработчик»",
+        "img": "images/autorPic/autor6.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat! ",
+        "rate": "4.87/5"
+    },
+    "autor7": {
+        "id": 7,
+        "name": "Имя Фамилия" ,
+        "status": "Студент курса «WEB-разработчик»",
+        "img": "images/autorPic/autor1.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. In hac habitasse platea dictumst. In ut dui sodales. ",
+        "rate": "4.87/5"
+    },
+    "autor8": {
+        "id": 8,
+        "name": "Имя Фамилия" ,
+        "status": "Студент курса «WEB-разработчик»",
+        "img": "images/autorPic/autor2.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. ",
+        "rate": "4.87/5"
+    },
+    "autor9": {
+        "id": 9,
+        "name": "Имя Фамилия" ,
+        "status": "Студент курса «WEB-разработчик»",
+        "img": "images/autorPic/autor7.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. ",
+        "rate": "4.87/5"
+    },
+    "autor10": {
+        "id": 10,
+        "name": "Имя Фамилия" ,
+        "status": "Студент курса «WEB-разработчик»",
+        "img": "images/autorPic/autor7.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. ",
+        "rate": "4.87/5"
+    },
+    "autor11": {
+        "id": 11,
+        "name": "Имя Фамилия" ,
+        "status": "Студент курса «WEB-разработчик»",
+        "img": "images/autorPic/autor7.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. ",
+        "rate": "4.87/5"
+    },
+    "autor12": {
+        "id": 12,
+        "name": "Имя Фамилия" ,
+        "status": "Студент курса «WEB-разработчик»",
+        "img": "images/autorPic/autor7.png",
+        "text": "Lorem ipsum dolor sit amet, pellentesque est bibendum urna facilisis varius. ",
+        "rate": "4.87/5"
+    },
+    "autor13": {
+        "id": 13,
+        "name": "Имя Фамилия" ,
+        "status": "Студент курса «WEB-разработчик»",
+        "img": "images/autorPic/autor7.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est  Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consecteturbibendum urna facilisis varius. ",
+        "rate": "4.87/5"
+    },
+    "autor14": {
+        "id": 14,
+        "name": "Имя Фамилия" ,
+        "status": "Студент курса «WEB-разработчик»",
+        "img": "images/autorPic/autor7.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consecteturadipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. ",
+        "rate": "4.87/5"
+    },
+    "autor15": {
+        "id": 15,
+        "name": "Имя Фамилия" ,
+        "status": "Студент курса «WEB-разработчик»",
+        "img": "images/autorPic/autor4.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. ",
+        "rate": "4.87/5"
+    },
+    "autor16": {
+        "id": 16,
+        "name": "Имя Фамилия" ,
+        "status": "Студент курса «WEB-разработчик»",
+        "img": "images/autorPic/autor3.png",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. ",
+        "rate": "4.87/5"
+    }
+}
+
