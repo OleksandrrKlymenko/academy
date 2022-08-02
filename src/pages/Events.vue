@@ -236,11 +236,12 @@
 </style>
 
 <script>
-import axios from 'axios'
+import events from '../assets/json/events.json'
+
     export default {
         data() {
             return {
-                eventsList: [],
+                eventsList: events,
                 qwe: true,
                 darkTheme: true,
                 popup: false
@@ -263,12 +264,5 @@ import axios from 'axios'
         mounted () {
             window.scrollTo(0, 0)
         },
-        created() {
-            axios
-                .get("json/events.json")
-                .then (resp => {
-                    this.eventsList = resp.data
-                })
-        }
     }
 </script>

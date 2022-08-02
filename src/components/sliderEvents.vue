@@ -41,7 +41,7 @@
     class="mySwiper"
   >
     <swiper-slide v-for="image in teamImg" :key="image">
-        <img :src="`../assets/${image.img}`" alt="team work">
+        <img :src="`img/${image.img}`" alt="team work">
     </swiper-slide>
   </swiper>
 </template>
