@@ -101,7 +101,7 @@
     <swiper-slide v-for="autor in autors" :key="autor"> 
       <div class="slider__item">
       <div class="autor__header">
-      <img :src="`../assets/${autor.img}`" alt="">
+      <img :src="`img/${autor.img}`" alt="">
       
       <div class="autor__title">
         <h6>{{autor.name}}</h6>
