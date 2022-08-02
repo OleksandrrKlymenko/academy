@@ -187,7 +187,7 @@
             <div class="leaders">
                 <div class="leader hover" v-for="leader in leaders" :key="leader">
                     <div>
-                        <img :src="leader.img" alt="leader img">
+                        <img :src="`../assets/images/${leader.img}`" alt="leader img">
                         <h6>
                             {{ leader.name }}
                         </h6>

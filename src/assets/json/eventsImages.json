@@ -1,38 +1,38 @@
 {
     "image1": {
-        "img": "/academy/img/team1.png"
+        "img": "team1.png"
     },
     "image2": {
-        "img": "/academy/img/team2.png"
+        "img": "team2.png"
     },
     "image3": {
-        "img": "/academy/img/team6.png"
+        "img": "team6.png"
     },
     "image4": {
-        "img": "/academy/img/team1.png"
+        "img": "team1.png"
     },
     "image5": {
-        "img": "/academy/img/team6.png"
+        "img": "team6.png"
     },
     "image6": {
-        "img": "/academy/img/team2.png"
+        "img": "team2.png"
     },
     "image7": {
-        "img": "/academy/img/team1.png"
+        "img": "team1.png"
     },
     "image8": {
-        "img": "/academy/img/team5.png"
+        "img": "team5.png"
     },
     "image9": {
-        "img": "/academy/img/team6.png"
+        "img": "team6.png"
     },
     "image10": {
-        "img": "/academy/img/team1.png"
+        "img": "team1.png"
     },
     "image11": {
-        "img": "/academy/img/team2.png"
+        "img": "team2.png"
     },
     "image12": {
-        "img": "/academy/img/team4.png"
+        "img": "team4.png"
     }
 }
