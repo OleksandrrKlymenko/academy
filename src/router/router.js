@@ -9,7 +9,6 @@ import pageNotFound from "@/pages/404.vue"
 
 const routes = [
   {
-      base: '/[academy]/',
       path: "/",
       name: "Main",
       component: Main,
@@ -48,7 +47,8 @@ const routes = [
 
 const router = createRouter({
     history: createWebHistory(),
-    routes,
+      base: '/academy/',
+      routes,
 });
 
 export default router;
