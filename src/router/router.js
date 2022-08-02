@@ -1,4 +1,4 @@
-import { createWebHistory, createRouter } from "vue-router";
+import { createWebHashHistory, createRouter } from "vue-router";
 import Main from "@/pages/Main.vue"
 import Events from "@/pages/Events.vue"
 import Event from "@/pages/Event.vue"
@@ -46,7 +46,7 @@ const routes = [
 ]
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(),
       base: '/academy/',
       routes,
 });
