@@ -69,7 +69,8 @@ const store = createStore({
 })
 
 
-app
+app 
     .use(store)
     .use(router)
     .mount('#app')
+  
