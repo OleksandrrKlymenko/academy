@@ -8,7 +8,8 @@ import Map from "@/pages/Map.vue"
 import pageNotFound from "@/pages/404.vue"
 
 const routes = [
-    {
+  {
+      base: '/[academy]/',
       path: "/",
       name: "Main",
       component: Main,
