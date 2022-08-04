@@ -256,7 +256,7 @@ import events from '../assets/json/events.json'
             }
         } ,
         methods: {
-            hide( ) {
+            hide() {
                 document.body.classList.remove('overlay')
                 return this.popup = false;
             },

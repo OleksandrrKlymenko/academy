@@ -98,11 +98,13 @@
 
   <section class="events events--main">
     <transition name="bounce" mode="out-in">
-      <popupModal v-if="popup"></popupModal>
+      <popupModal v-if="popup">
+        <div @click="hide" class="popup__close"></div>
+      </popupModal>
     </transition>
-    <div class="container" @click="showPopup">
+    <div class="container">
       <div class="card__event event--main hover">
-        <div class="card__wrapper">
+        <div class="card__wrapper" @click="showPopup">
           <div class="event__date">
             <p class="text--date">
               25
@@ -721,6 +723,11 @@
   overflow: hidden;  
 }
 
+.popup__close {
+    width: 100%;
+    height: 100%;
+}
+
 // responsive 
 
 @media screen and (max-width: 1250px) {
@@ -753,6 +760,7 @@
     padding: 0 30px;
   }
 }
+
 
 @media screen and (max-width: 1090px) {
   .main__screen {

@@ -31,7 +31,7 @@
           <div class="input__wrapper"> 
             <div class="hover">
               <div class="wrapp__item">
-                <input class="input--sm" type="number" placeholder="Ваш телефон" v-model="state.phoneNumber" :class="{input__error: error, input__required: isValid}">
+                <input class="input--sm" type="text" placeholder="Ваш телефон" v-model="state.phoneNumber" :class="{input__error: error, input__required: isValid}">
               </div>
             </div>
             <div class="hover">
