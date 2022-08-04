@@ -37,7 +37,7 @@
                         </div>
                     </div>
 
-                    <div class="item__wrapper hover" v-for="event in eventsList" :key="event.id" :class="{special: qwe}">
+                    <div class="item__wrapper hover" v-for="event in eventsList" :key="event.id" :class="{special: special}">
                         <div class="card">
                             <img src="../assets/images/manWithLaptop.jpg" alt="man with laptop" class="event__image">
                             <div class="card__wrapper">
@@ -250,7 +250,7 @@ import events from '../assets/json/events.json'
         data() {
             return {
                 eventsList: events,
-                qwe: true,
+                special: true,
                 darkTheme: true,
                 popup: false
             }

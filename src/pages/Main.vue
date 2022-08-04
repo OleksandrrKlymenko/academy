@@ -67,6 +67,9 @@
           <div v-html="showMeVideo"></div>
         </div>
       </div>
+        <transition name="bounce" mode="out-in">
+          <popupModal v-if="popup"></popupModal>
+        </transition>
       <div class="aboutUs__descr">
         <h4>
           Актуальные знания от признанных экспертов рынка 
@@ -95,10 +98,6 @@
       </div>
     </div>
   </section>
-
-  <transition name="bounce" mode="out-in">
-    <popupModal v-if="popup"></popupModal>
-  </transition>
 
   <section class="events events--main">
     <div class="container">
@@ -1003,13 +1002,16 @@ import slider from "@/components/slider.vue"
         encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen /> `
       },
+      hide() {
+        document.body.classList.remove('overlay')
+        return this.popup = false;
+      },
       showPopup() {
         if (this.popup === false) {
-            document.body.classList.add('overlay')
-            return this.popup = true;
+          document.body.classList.add('overlay')
+          return this.popup = true;
         } else {
-            document.body.classList.remove('overlay')
-            return this.popup = false;
+          hide()
         }
       }
     },
