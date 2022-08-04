@@ -1,4 +1,6 @@
-# academy_project
+# academy
+
+## News section not working with gh-pages, but you can open it in your VSCode to see this section
 
 ## Project setup
 ```
