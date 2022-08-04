@@ -67,9 +67,6 @@
           <div v-html="showMeVideo"></div>
         </div>
       </div>
-        <transition name="bounce" mode="out-in">
-          <popupModal v-if="popup"></popupModal>
-        </transition>
       <div class="aboutUs__descr">
         <h4>
           Актуальные знания от признанных экспертов рынка 
@@ -100,7 +97,10 @@
   </section>
 
   <section class="events events--main">
-    <div class="container">
+    <transition name="bounce" mode="out-in">
+      <popupModal v-if="popup"></popupModal>
+    </transition>
+    <div class="container" @click="showPopup">
       <div class="card__event event--main hover">
         <div class="card__wrapper">
           <div class="event__date">
@@ -118,7 +118,7 @@
               в мир востребованных профессий и полезных навыков
             </p>
           </div>
-          <button type="button" class="button" @click="showPopup">
+          <button type="button" class="button">
             Записаться
           </button>
         </div>
