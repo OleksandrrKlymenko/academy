@@ -49,10 +49,11 @@
             background-color: white;
             height: 100%;
             width: inherit;
+            position: relative;
             .news__link {
                 position: absolute;
-                height: 100%;
-                width: inherit;
+                top: 0;
+                left: 0;
             }
         }
     }

@@ -38,7 +38,7 @@
                     </div>
 
                     <div class="item__wrapper hover" v-for="event in eventsList" :key="event.id" :class="{special: qwe}">
-                        <router-link to="/Event" class="card">
+                        <div class="card">
                             <img src="../assets/images/manWithLaptop.jpg" alt="man with laptop" class="event__image">
                             <div class="card__wrapper">
                                 <p class="event__type">
@@ -53,8 +53,9 @@
                                 <p class="event__date">
                                     {{event.date}}
                                 </p>
+                                <router-link to="/Event" class="current__event--link"></router-link>
                             </div>
-                        </router-link>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -148,6 +149,7 @@
     min-height: 250px;
     border-radius: 20px;
     display: flex;
+    position: relative;
     .card__wrapper {
         padding: 30px;
     }
@@ -157,8 +159,14 @@
         height: 250px;
         object-fit: cover;
     }
+    .current__event--link {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 }
 .page__title {
+    padding-top: 50px;
     margin-right: auto;
     p {
         color: gray;

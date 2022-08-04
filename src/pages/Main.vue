@@ -136,6 +136,7 @@
           <button type="button">
             Подробнее
           </button>
+          <router-link to="/Event"></router-link>
         </div>
       </div>
       <div class="card__news--sm mint hover">
@@ -144,6 +145,7 @@
             <h4>
               Новости Академии
             </h4>
+            <router-link to="/Event"></router-link>
         </div>
       </div>
       <div class="card__news--sm lavender hover">
@@ -152,6 +154,7 @@
           <h4>
             Мир IT
           </h4>
+          <router-link to="/Event"></router-link>
         </div>
       </div>
       <div class="card__justTry hover">
@@ -165,6 +168,7 @@
               Пройдите тест и узнайте 
               свои способности в сфере информационных технологий.
             </p>
+            <router-link to="/Event"></router-link>
           </div>
         </div>
       </div>
@@ -175,6 +179,7 @@
               <h4>
                 Новости Академии
               </h4>
+              <router-link to="/Event"></router-link>
           </div>
         </div>
         <div class="card__news--sm lavender hover">
@@ -183,6 +188,7 @@
             <h4>
               Мир IT
             </h4>
+            <router-link to="/Event"></router-link>
           </div>
         </div>
       </div>
@@ -590,6 +596,12 @@
       background-color: inherit;
       width: 100%;
       height: 100%;
+      position: relative;
+      a {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
     }
     .card__event > .card__wrapper {
       padding: 25px 40px;

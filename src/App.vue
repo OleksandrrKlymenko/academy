@@ -9,7 +9,6 @@
 </template>
 
 <style lang="scss">
-  @import '@/variables.scss';
 
 </style>
 
