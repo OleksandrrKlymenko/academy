@@ -16,43 +16,43 @@ const store = createStore({
         choosenCity: {},
         location: [
             {
-                title: 'Одесса',
+                title: 'Odessa',
                 link: '/map',
                 geo: [46.48903242477565, 30.722489824518462],
                 id: 1
             },
             {
-                title: 'Львов',
+                title: 'Lviv',
                 link: '/map',
                 geo: [49.8413037602549, 24.026996832199288],
                 id: 2
             },
             {
-                title: 'Киев',
+                title: 'Kyiv',
                 link: '/map',
                 geo: [50.44919579752186, 30.52650449137327],
                 id: 3
             },
             {
-                title: 'Ужгород',
+                title: 'Uzhgorod',
                 link: '/map',
                 geo: [48.62561735474441, 22.299034923837443],
                 id: 4
             },
             {
-                title: 'Днепр',
+                title: 'Dnipro',
                 link: '/map',
                 geo: [48.47405055994291, 35.01751611121485],
                 id: 5
             },
             {
-                title: 'Харьков',
+                title: 'Kharkiv',
                 link: '/map',
                 geo: [49.987443835185196, 36.23157341175897],
                 id: 6
             },
             {
-                title: 'Николаев',
+                title: 'Mykolayiv',
                 link: '/map',
                 geo: [46.96719625458191, 32.003870479603336],
                 id: 7

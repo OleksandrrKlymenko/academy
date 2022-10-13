@@ -3,7 +3,7 @@
     <section class="news">
         <div class="container">
             <h1>
-                Новости ХОД Future Academy
+                News HOD Future Academy
             </h1>
             <div class="news__list">
                 <div class="news__item hover" v-for="item, index in list" :key="index">
@@ -20,7 +20,7 @@
                                 {{ item.description }} 
                             </p>
                             <p class="item__link">
-                                Подробнее
+                                More information
                             </p>
                         </div>
                         <router-link :to="{name: 'One', params: {title: item.title}}" class="news__link"></router-link>

@@ -5,50 +5,53 @@
         <owl></owl>
         <div class="question">
           <div v-if="isValid">
-              <h4 class="valid__message">Спасибо! 
-                  В течении следующих 3-х рабочих дней мы с вами свяжемся!</h4>
+              <h4 class="valid__message">Thank you! 
+                We will contact you within the next 3 business days!
+              </h4>
           </div>
           <div v-if="error">
-            <h4 class="error__message">Все поля должны быть заполненными!</h4>
+            <h4 class="error__message">
+              All fields must be filled!
+            </h4>
           </div>
           <div v-if="owlMessage">
               <h4>
-                  Помочь с выбором?
+                Help with a choice?
               </h4>
               <p>
-                  Оставьте заявку и наши специалисты свяжутся 
-                  с вами, ответят на все вопросы 
-                  и подберут подходящий вариант обучения.
+                Leave a request and our specialists will contact
+                 with you, we will answer all questions
+                 and choose the right course.
               </p>
           </div>
         </div>
         <form class="form" method="post" >
           <div class="userName hover">
             <div class="wrapp__item">
-              <input type="text" placeholder="Ваше имя" v-model="state.text"  :class="{input__error: error, input__required: isValid}">
+              <input type="text" placeholder="Your name" v-model="state.text"  :class="{input__error: error, input__required: isValid}">
             </div>
           </div>
           <div class="input__wrapper"> 
             <div class="hover">
               <div class="wrapp__item">
-                <input class="input--sm" type="text" placeholder="Ваш телефон" v-model="state.phoneNumber" :class="{input__error: error, input__required: isValid}">
+                <input class="input--sm" type="text" placeholder="Your phone number" v-model="state.phoneNumber" :class="{input__error: error, input__required: isValid}">
               </div>
             </div>
             <div class="hover">
               <div class="wrapp__item">
-                <input class="input--sm" type="text" placeholder="Ваш e-mail" v-model="state.email" :class="{input__error: error, input__required: isValid}">
+                <input class="input--sm" type="text" placeholder="Your e-mail" v-model="state.email" :class="{input__error: error, input__required: isValid}">
               </div>
             </div>
           </div>
           <div class="input__wrapper">
             <span>
               <a href="#">
-                Нажимая на кнопку, я соглашаюсь на обработку персональных 
-                данных и с правилами пользования Платформой.
+                By clicking on the button, I consent to the processing of personal
+                data and with the rules for using the platform.
               </a>
             </span>
             <button type="submit" @click.prevent="isRequired">
-              Отправить
+              Apply
             </button>
           </div>
         </form>

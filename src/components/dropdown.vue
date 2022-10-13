@@ -7,7 +7,7 @@
         </div>
         <transition name="fade" appear>
             <div class="sub-menu" v-if="isOpen">
-                <h3>Выберите свой город</h3>
+                <h3>Choose your city</h3>
                 <div class="wrapper" @click="isOpen = false">
                     <div v-for="(item, i) in location" :key="i" class="menu-item"  @click="isOpen = !isOpen" :class="{hideChoosenCity: item.title === city}">
                         <router-link to="/map" class="dropdown__text" @click="getCity(item.title, item)" v-if="item.title !== city">
@@ -85,7 +85,7 @@
     name: 'dropdown',
     data() {
         return {
-            city:'Одесса',
+            city:'Odessa',
             isOpen: false,
             map: '/',
             location: this.$store.state.location,

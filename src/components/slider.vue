@@ -40,7 +40,7 @@
     :grabCursor="true"
     class="mySwiper"
   >
-    <h3 class="swiper__title">Отзывы наших студентов</h3>
+    <h3 class="swiper__title">Feedback from our students</h3>
     <div>
       <div class="bcg__item line1__swiper">
         <svg width="340" height="133" viewBox="0 0 340 133" fill="none" xmlns="http://www.w3.org/2000/svg">

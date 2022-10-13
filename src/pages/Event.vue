@@ -5,37 +5,37 @@
             <div class="event__container">
                 <div class="event__title">
                     <h1 class="title"> 
-                        Название мероприятия
+                        Event Title
                     </h1>
                     <p class="subTitle">
-                        Подпись к названию
+                        Event Subtitle
                     </p>
                 </div>
                 <div class="event__motivation">
                     <div class="item">
                         <div></div>
                         <p>
-                          Узнайте самые востребованные профессии, на которые более 113 тысяч вакансия.
+                            Find out about the most popular professions with over 113,000 job openings.
                         </p>
                     </div>
                     <div class="item">
                         <div></div>
                         <p>
-                            Выберите походящую именно для вас.
+                            Choose the right one for you.
                         </p>
                     </div>
                     <div class="item">
                         <div></div>
                         <p>
-                          Сделайте первые шаги и возможности выйти на доход более 9000 тысяч евро.
+                            Take the first steps and get the opportunity to reach an income of more than 9,000 thousand euros.
                         </p>
                     </div>
                 </div>
                 <h4>
-                    Запишись сейчас
+                    Sign up now
                 </h4>
                 <button type="button" class="event__button">
-                    Записаться на интенсив
+                    Sign up for an intensive
                 </button>
             </div>
             <div class="bcg__item line1">
@@ -73,12 +73,12 @@
                 <div class="owl__message">
                     <owl></owl>
                     <div class="message">
-                        <p>Текст призывающий записаться на мероприятие</p>
+                        <p>Some text with a call to register for the event</p>
                     </div>
                 </div>
                 <div class="description">
                     <img src="../assets/images/XEventIcon.svg" alt="X symbol">
-                    <h4>Заголовок</h4>
+                    <h4>Title</h4>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur 
                         adipiscing elit. Fusce mi elit, egestas ut 
@@ -88,7 +88,7 @@
                 </div>
                 <div class="description">
                     <img src="../assets/images/circleEventIcon.svg" alt="circle symbol">
-                    <h4>Заголовок</h4>
+                    <h4>Title</h4>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur 
                         adipiscing elit. Fusce mi elit, egestas ut 
@@ -98,7 +98,7 @@
                 </div>
                 <div class="description">
                     <img src="../assets/images/trigonEventIcon.svg" alt="trigon symbol">
-                    <h4>Заголовок</h4>
+                    <h4>Title</h4>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur 
                         adipiscing elit. Fusce mi elit, egestas ut 
@@ -112,7 +112,7 @@
     <section class="event__descr">
         <div class="container">
             <h2>
-                Программа мероприятия
+                Event program
             </h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -183,7 +183,7 @@
             </svg>
         </div>
         <div class="container">
-            <h2>Мероприяте проводят</h2>
+            <h2>Event leaders</h2>
             <div class="leaders">
                 <div class="leader hover" v-for="leader in leaders" :key="leader">
                     <div>
@@ -202,7 +202,7 @@
     <section class="event__photos">
         <div class="container">
             <h2>
-                Фотографии с прошлых мероприятий
+                Photos from past events
             </h2>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 

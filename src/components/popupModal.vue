@@ -30,22 +30,22 @@
     }
 
     .bounce-enter-active {
-        animation: bounce-in .5s ease-out both;
+        animation: bounce-in .25s ease-out both;
     }
 
     .bounce-leave-active {
-        animation: bounce-in .5s reverse ease-in both;
+        animation: bounce-in .25s reverse ease-in both;
     }
 
     @keyframes bounce-in {
         0% {
-            transform: scale(0);
+            opacity: 0;
         }
         50% {
-            transform: scale(1.10);
+            opacity: 0.5;
         }
         100% {
-            transform: scale(1);
+            opacity: 1;
         }
     }
 </style>

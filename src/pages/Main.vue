@@ -7,10 +7,10 @@
         <div class="main__descr--wrapper">
           <div class="main__descr">
             <h1>
-              Образовательная платформа ХОД Future Academy
+              Educational platform ХОД Future Academy
             </h1>
             <p class="subTitle">
-              Актуальные знания для новичков и профессионалов
+              Up-to-date knowledge for beginners and professionals
             </p>
           </div>
         </div>
@@ -69,26 +69,26 @@
       </div>
       <div class="aboutUs__descr">
         <h4>
-          Актуальные знания от признанных экспертов рынка 
-          для новичков и практикующих специалистов.
+          Up-to-date knowledge from recognized market experts
+          for beginners and practitioners.
         </h4>
         <div class="descr__container" >
           <div>
             <p class="text--gradient">600</p>
             <p class="subTitle">
-              Курсы
+              Courses
             </p>
           </div>
           <div>
             <p class="text--gradient">82</p>
             <p class="subTitle">
-              Ведущих преподавателей
+              Leading teachers
             </p>
           </div>
           <div>
             <p class="text--gradient">14 795</p>
             <p class="subTitle">
-              Выпускников
+              Graduates
             </p>
           </div>
         </div>
@@ -110,32 +110,32 @@
               25
             </p>
             <p>
-              ноября
+              November
             </p>
           </div>
           <div class="event__descr">
-            <h3>День открытых дверей</h3>
+            <h3>Open Day</h3>
             <p>
-              Приглашаем всех желающих на бесплатную экскурсию 
-              в мир востребованных профессий и полезных навыков
+              We invite everyone to a free tour
+              into the world of sought-after professions and useful skills
             </p>
           </div>
           <button type="button" class="button">
-            Записаться
+            Sign up
           </button>
         </div>
       </div>
       <div class="card__study hover">
         <div class="card__wrapper">
           <img src="../assets/images/monitor.svg" alt="monitor icon">
-          <h4>Программы обучения</h4>
+          <h4>Studying programs</h4>
           <p>
-            В списке наших курсов вы сможете найти 
-            профессию и занятие по душе, изучить новое и получить 
-            практические знания, которые помогут получить работу мечты.
+            In our list of courses you will find a profession and an o
+            ccupation that you love, learn new things and gain practical 
+            knowledge that will help you find the job of your dreams.
           </p>
-          <button type="button">
-            Подробнее
+          <button type="button" class="button">
+            More information
           </button>
           <router-link to="/Event"></router-link>
         </div>
@@ -144,7 +144,7 @@
         <div class="card__wrapper">
             <img src="../assets/images/newspaper.svg" alt="newspaper icon">
             <h4>
-              Новости Академии
+              News Academy
             </h4>
             <router-link to="/Event"></router-link>
         </div>
@@ -153,7 +153,7 @@
         <div class="card__wrapper">
           <img src="../assets/images/diagram.svg" alt="diagram icon">
           <h4>
-            Мир IT
+            IT World
           </h4>
           <router-link to="/Event"></router-link>
         </div>
@@ -163,11 +163,10 @@
           <img src="../assets/images/justTry.svg" alt="motivation picture">
           <div>
             <h4>
-              Попробуй!
+              Just Try It!
             </h4>
             <p>
-              Пройдите тест и узнайте 
-              свои способности в сфере информационных технологий.
+              Take the test and find out your information technology skills.
             </p>
             <router-link to="/Event"></router-link>
           </div>
@@ -178,7 +177,7 @@
           <div class="card__wrapper">
               <img src="../assets/images/newspaper.svg" alt="newspaper icon">
               <h4>
-                Новости Академии
+                News Academy
               </h4>
               <router-link to="/Event"></router-link>
           </div>
@@ -187,7 +186,7 @@
           <div class="card__wrapper">
             <img src="../assets/images/diagram.svg" alt="diagram icon">
             <h4>
-              Мир IT
+              IT World
             </h4>
             <router-link to="/Event"></router-link>
           </div>
@@ -202,31 +201,31 @@
 
   <section class="ourPluses">
     <div class="container">
-      <h2>Добро пожаловать в Академию будущего ХОД</h2>
+      <h2>Welcome to HOD Academy of the Future</h2>
       <div class="ourPluses__wrapper">
         <div class="item">
           <div>
             <img src="../assets/images/icons/tools.png" alt="tools icon">
           </div>
-          <p>Передовой подход к образовательному прогрессу</p>
+          <p>An advanced approach to educational progress</p>
         </div>
         <div class="item">
           <div>
             <img src="../assets/images/icons/book.png" alt="book icon">
           </div>
-          <p>Непрерывное усовершенствование и пополнение базы курсов</p>
+          <p>Continuous improvement and replenishment of the base of courses</p>
         </div>
         <div class="item">
           <div>
             <img src="../assets/images/icons/classRoom.png" alt="class room icon">
           </div>
-          <p>Только практикующие преподователи</p>
+          <p>Only practicing teachers</p>
         </div>
         <div class="item">
           <div>
             <img src="../assets/images/icons/man.png" alt="man icon">
           </div>
-          <p>Сопровождение на всех этапах. От начала обучения до трудоустройства</p>
+          <p>Support at all stages. From education to employment</p>
         </div>
       </div>
     </div>
@@ -646,10 +645,11 @@
       p {
         margin: 15px 0 20px;
       }
-      button {
+      .button {
         border-color: $dark_blue;
         color: $dark_blue;
         height: 50px;
+        z-index: 25;
         &:focus, &:hover {
           background-color: $dark_blue;
           color: $white;

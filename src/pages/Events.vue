@@ -1,7 +1,7 @@
 <template>
     <my_header :darkTheme="true"></my_header>
         <div class="page__title container">
-            <h1>Все мероприятия</h1>
+            <h1>All events</h1>
         </div>
         
           <transition name="bounce" mode="out-in">
@@ -21,18 +21,18 @@
                               25
                             </p>
                             <p>
-                              ноября
+                              November
                             </p>
                           </div>
                           <div class="event__descr">
-                            <h3>День открытых дверей</h3>
+                            <h3>Open Day</h3>
                             <p>
-                              Приглашаем всех желающих на бесплатную экскурсию 
-                              в мир востребованных профессий и полезных навыков
+                                We invite everyone to a free journey into 
+                                the world of sought-after professions and useful skills.
                             </p>
                           </div>
                           <button type="button" class="button">
-                            Записаться
+                            Sign Up
                           </button>
                         </div>
                     </div>
@@ -110,14 +110,6 @@
         }
     }
     &:nth-child(6) {
-        &::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            border-radius: 20px;
-            background: rgba(0, 60, 45, .1);
-        }
         .card {
             background-image: url('../assets/images/manWithLaptop.jpg');
             background-size: cover;
@@ -152,6 +144,7 @@
     position: relative;
     .card__wrapper {
         padding: 30px;
+        min-height: 190px;
     }
     .event__image {
         display: none;

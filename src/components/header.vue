@@ -4,7 +4,7 @@
       <div class="menu" >
         <navbar @click="removeOverlay">
         <li class="contacts">
-          г. Одесса, ул.Дерибассовская, д.23
+          Odessa, st. Deribasovskaya 23
         </li>
         <li class="contacts">
           info@hodfutureacademy.com
@@ -43,7 +43,7 @@
       </router-link>
       
       <p class="academy__name">
-        Future Academy ХОД
+        Future Academy HOD
       </p>
 
       <navbar></navbar>

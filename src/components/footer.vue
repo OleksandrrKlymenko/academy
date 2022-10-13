@@ -9,7 +9,7 @@
           +38(097)123 1234
         </p>
         <p>
-          г. Одесса, ул.Дерибассовская, д.23
+          Odessa, st. Deribasovskaya 23
         </p>
         <p>
           info@hodfutureacademy.com
@@ -32,7 +32,7 @@
           </a>
         </div>
         <p class="socials__mark">
-          @ХОД, Future Academy
+          @HOD, Future Academy
         </p>
       </div>
   

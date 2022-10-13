@@ -86,12 +86,12 @@
                     </svg>
                 </div>                     -->
                 <h1 class="title">
-                    Страница не найдена
+                    Page not found
                 </h1>
                 <div class="pageNotFound__image">
                     <img src="../assets/images/404.svg" alt="page not found">
                 </div>
-                <router-link to="/" class="pageNotFound__link">Вернуться на главную</router-link>
+                <router-link to="/" class="pageNotFound__link">Back to main</router-link>
             </div>
         </div>
     </section>

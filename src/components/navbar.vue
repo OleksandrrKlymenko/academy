@@ -3,17 +3,17 @@
         <ul>
           <li>
             <router-link to="/" class="nav__text">
-              Все курсы
+              All courses
             </router-link>
           </li>
           <li>
             <router-link to="/events" class="nav__text">
-              Мероприятия
+              Events
             </router-link>
           </li>
           <li>
             <router-link to="/news/" class="nav__text">
-              Новости
+              News
             </router-link>
           </li>
           <li>
